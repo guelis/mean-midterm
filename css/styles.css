@@ -1,0 +1,62 @@
+body {
+  padding: 50px;
+  background: #ccc; }
+
+input[type=text], textarea {
+  padding: 3px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.2); }
+
+textarea {
+  width: 100%;
+  margin-bottom: 12px; }
+
+button {
+  margin: 0 0 12px 12px; }
+
+.date {
+  float: right; }
+
+.panel-primary, .panel-default {
+  width: 90%;
+  float: left;
+  margin-right: 2%;
+  min-height: 180px; }
+
+.cl {
+  clear: both; }
+
+.panel-heading a {
+  color: #fff; }
+
+.search {
+  margin-bottom: 20px;
+  display: block; }
+
+header h1 {
+  width: 70%;
+  margin: 0px auto;
+  background: url("../images/earth-moon.jpg");
+  height: 250px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px; }
+
+.right_col {
+  width: 60%;
+  float: right; }
+
+.left_col {
+  width: 40%;
+  float: left; }
+
+@media screen and (max-width: 768px) {
+  .right_col {
+    width: 100%;
+    float: left; }
+
+  .left_col {
+    width: 100%;
+    float: left; } }
+
+/*# sourceMappingURL=styles.css.map */

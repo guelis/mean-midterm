@@ -1,0 +1,9 @@
+<div> <a href="index.html#/events">BACK</a>
+	<div class="alert alert-danger" ng-show="load_error_text">
+	{{page_loading_error}}
+</div>
+<h3>{{event.name}}</h3>
+<div class="photo thumbnail" ng-repeat="event in events">
+	<img src="/images/{{event_name}}/{{event.filename}}" />
+	<p>{{event.description}}</p>
+</div>
